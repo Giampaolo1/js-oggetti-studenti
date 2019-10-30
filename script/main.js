@@ -17,9 +17,9 @@ var studente = {
 // console.log(studente);
 
 //  - Creare un ARRAY di OGGETTI di studenti.
-var studenti = [stud1,stud2,stud3];
+var studenti = [stud1, stud2, stud3];
 
-console.log(studenti);
+console.log(studenti)
 
 // lista studenti
 var stud1 = {
