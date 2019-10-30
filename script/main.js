@@ -45,5 +45,6 @@ var nuovoStudente = {
   "Nome": prompt("Nome:"),
   "Cognome": prompt("Cognome:"),
   "Età": prompt("Età:")
-}
+};
+
 nuovoStudente.push(studenti);
