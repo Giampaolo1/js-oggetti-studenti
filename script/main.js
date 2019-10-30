@@ -41,8 +41,9 @@ var stud3 = {
 //  - Dare la possibilità all utente attraverso 3 PROMPT di aggiungere un nuovo
 // OGGETTO STUDENTE inserendo nell ordine nome,cognome,età.
 
-var nuovoStudente =
-  prompt("Nome:");
-  prompt("Cognome:");
-  prompt("Età:");
+var nuovoStudente = {
+  "Nome": prompt("Nome:"),
+  "Cognome": prompt("Cognome:"),
+  "Età": prompt("Età:")
+}
 nuovoStudente.push(studenti);
