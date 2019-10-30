@@ -6,6 +6,8 @@
 //  - Dare la possibilità all utente attraverso 3 PROMPT di aggiungere un nuovo
 // OGGETTO STUDENTE inserendo nell ordine nome,cognome,età.
 
+// ESERCIZIO 1
+
 //  - Creare un OGGETTO che descriva uno studente con le seguenti proprietà:
 
 var studente = {
@@ -16,8 +18,7 @@ var studente = {
 
 // console.log(studente);
 
-//  - Creare un ARRAY di OGGETTI di studenti.
-var studenti = [stud1, stud2, stud3];
+// ESERCIZIO 2
 
 // lista studenti
 var stud1 = {
@@ -36,15 +37,15 @@ var stud3 = {
   "Età": "32"
 };
 
+var studenti = [stud1,stud2,stud3]
+
 //  - Dare la possibilità all utente attraverso 3 PROMPT di aggiungere un nuovo
 // OGGETTO STUDENTE inserendo nell ordine nome,cognome,età.
+var nuovoStudente = {
+  "Nome": prompt("Nome:"),
+  "Cognome": prompt("Cognome:"),
+  "Età": prompt("Età:")
+};
+nuovoStudente.push(studenti);
 
-// var nuovoStudente = {
-//   "Nome": prompt("Nome:"),
-//   "Cognome": prompt("Cognome:"),
-//   "Età": prompt("Età:")
-// };
-//
-// nuovoStudente.push(studenti);
-
-console.log(studenti)
+console.log(studenti);
