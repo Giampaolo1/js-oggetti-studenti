@@ -15,14 +15,13 @@ var studente = {
   "Cognome": "Rossi",
   "Età": "30"
 };
-
+console.log("Esercizio1");
 // STAMPARE le prop via ciclo for.in
 for (var prop in studente){
-  console.log(prop,":",studente[prop]);
+console.log(prop,":",studente[prop]);
 }
 
-
-// console.log(studente);
+// console.log("es1",studente);
 
 // ESERCIZIO 2
 
@@ -44,6 +43,8 @@ var stud3 = {
 };
 
 var studenti = [stud1,stud2,stud3];
+console.log("Esercizio2");
+console.log("studenti prima del prompt", studenti);
 
 //  - Dare la possibilità all utente attraverso 3 PROMPT di aggiungere un nuovo
 // OGGETTO STUDENTE inserendo nell ordine nome,cognome,età.
@@ -51,23 +52,28 @@ var studenti = [stud1,stud2,stud3];
 //// ciclo for ----- stampo nome e cognome degli studenti nell ARRAY
 
 for (var i = 0; i < studenti.length; i++) {
-  console.log(studenti[i].nome, studenti[i].cognome);
+  // console.log(studenti[i].nome, studenti[i].cognome);
 }
 
-  var Nome: prompt("Nome:");
-  var Cognome: prompt("Cognome:");
-  var Età: prompt("Età:");
+  var nuovoNome = prompt("Nome:");
+  var nuovoCognome = prompt("Cognome:");
+  var nuovaEtà = prompt("Età:");
 
   var nuovoStudente = {
-    "Nome":nuovonome,
-    "Cognome":nuovocognome,
-    "Età":nuovaetà,
+    "Nome": nuovoNome,
+    "Cognome": nuovoCognome,
+    "Età": nuovaEtà
   };
 
   // pushare nell ARRAY
 
   studenti.push(nuovoStudente);
-  console.log(studenti);
+  console.log("studenti DOPO del prompt", studenti);
+
+  // STAMPARE le prop via ciclo for.in
+  // for (var prop in studente){
+  //   console.log(prop,":",studente[prop]);
+  // }
 
 
 
