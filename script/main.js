@@ -44,7 +44,7 @@ var stud3 = {
 
 var studenti = [stud1,stud2,stud3];
 console.log("Esercizio2");
-console.log("studenti prima del prompt", studenti);
+console.log("studenti PRIMA del prompt", studenti);
 
 //  - Dare la possibilità all utente attraverso 3 PROMPT di aggiungere un nuovo
 // OGGETTO STUDENTE inserendo nell ordine nome,cognome,età.
